@@ -1,0 +1,27 @@
+p {
+    background-color: #afe0b2;
+    border: 2px solid #7da980;
+}
+img {
+    max-width: 100px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+    border: 2px solid #7da980;
+    box-shadow: 0px 0px 3px #455645;
+}
+h3 {
+    color: #455645;
+    font-weight: lighter;
+    text-decoration: underline;
+}
+@media only screen and (max-width: 600px) {
+    .mobileDisplay {
+        display: block;
+    }
+}
+@media (min-width: 601px) {
+    .mobileDisplay {
+        display: none
+    }
+}
